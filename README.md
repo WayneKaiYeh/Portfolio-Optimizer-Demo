@@ -33,25 +33,18 @@ Render Dashboard Auto-Update
 ## 🔄 Extended System Workflow (Google Drive + GitHub)
 
 ```
-Google Drive Desktop (models, features, scaler)
+Google Drive Desktop with VS Code(tickers name)
         │
         ▼ (Sync)
 Google Drive
         │
-        ├────────────► GitHub Repo
-        │                 ▲
+        ├────────────► GitHub Repo ──────────────►  GitHub Actions ──────► Render.com 
+        │                 ▲        (00:00 UTC Daily)               (Auto DisplayLatestInfo)
         │                 │
-        │          (Modify via VS Code)
+        │      (Modify via VS Code)
         │                 │
         └──── VS Code ────┘
 
-GitHub Repo
-    │
-    ▼ (00:00 UTC Daily)
-GitHub Actions
-    │
-    ▼
-Render.com (Auto Display Latest Info)
 ```
 
 ---
