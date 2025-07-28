@@ -38,8 +38,8 @@ Google Drive Desktop with VS Code(tickers name)
         ▼ (Sync)
 Google Drive
         │
-        ├────────────► GitHub Repo ──────────────►  GitHub Actions ──────► Render.com 
-        │                 ▲        (00:00 UTC Daily)               (Auto DisplayLatestInfo)
+        ├──────────► GitHub Repo ───────────────────► GitHub Actions ────────► Render.com 
+        │                 ▲       (00:00 UTC Daily)                     (Auto DisplayLatestInfo)
         │                 │
         │      (Modify via VS Code)
         │                 │
